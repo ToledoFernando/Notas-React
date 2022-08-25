@@ -1,0 +1,143 @@
+.NuevaTarea{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.438);
+    backdrop-filter: blur(2px);
+    position: fixed;
+    opacity: 0%;
+    visibility: hidden;
+    transition: all 1s;
+    z-index: 400;
+}
+.Container{
+    right: -100%;
+    background-color: #8d16b4;
+    margin: auto;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin-top: 150px;
+    transition: all 1s;
+}
+
+.Alerta{
+    background-color: #cb2020;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 35%;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    left: -100%;
+    transition: all 1s;
+}
+
+.About{
+    position: absolute;
+    color: #000;
+    padding-top: 30px;
+    right: -100%;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    background-color: #dad6d6;
+    transition: all 0.5s;
+}
+
+.About p{
+    padding: 20px;
+}
+
+.Formulario-xd{
+    color: #fff;
+    padding: 0px 25px;
+    width: 100%;
+    height: 100%;
+    background-color: #8505cf;
+}
+
+.Formulario-xd h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.Formulario-xd input{
+    width: 100%;
+    background-color: #5e118a;
+    height: 20px;
+    color: #fff;
+    border: 0;
+    border-bottom: 1px solid #fff;
+}
+
+.Formulario-xd input:focus{
+    outline: none;
+}
+
+.Formulario-xd textarea{
+    width: 100%;
+    height: 80px;
+    resize: none;
+    background-color: #5e118a;
+    border: 0;
+    color: #fff;
+}
+
+.Formulario-xd textarea:focus{
+    outline: none;
+}
+
+.Formulario-xd #Guardarxd{
+    margin-left: 35%;
+    margin-top: 10px;
+    background-color: #b920e4;
+    border: 0;
+    border-radius: 15px;
+    color: #fff;
+    padding: 7px 15px;
+    box-shadow: 0px 3px 13px 3px rgba(0, 0, 0, 0.171);
+}
+
+#VerAbout,#CerrarAbout{
+    position: absolute;
+    top: 12%;
+    border: 0;
+    color: #000000;
+    background-color: #dad6d6;
+    cursor: pointer;
+    z-index: 200;
+    transition: all 0.5s;
+}
+#VerAbout{
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    right: 65px;
+    font-size: 25px;
+    border-bottom-left-radius: 17px;
+    border-top-left-radius: 17px;
+    box-shadow: 0px 0px 13px 4px rgba(0, 0, 0, 0.58);
+}
+#CerrarAbout{
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    font-size: 25px;
+    right: 30px;
+    border-bottom-right-radius: 17px;
+    border-top-right-radius: 17px;
+    box-shadow: 14px 0px 13px 0px #00000026;
+}
+
+#botones{
+    position: absolute;
+    right: -70px;
+    top: 15%;
+}
+
+.Formulario-xd textarea::placeholder, .Formulario-xd input::placeholder{
+    color: rgb(201, 201, 201);
+}

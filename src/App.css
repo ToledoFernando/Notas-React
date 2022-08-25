@@ -1,0 +1,47 @@
+.Titulo{
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 10px;
+  width: 200px;
+  margin: auto;
+  border-radius: 9px;
+  margin-top: 40px;
+  box-shadow: 3px 3px 10px 0px #00000033;
+  animation-name: Titulo;
+  animation-duration: 1s;
+}
+
+@keyframes Titulo {
+  0%{
+    transform: scale(0.8);
+  }
+  60%{
+    transform: scale(1.1);
+  }
+
+}
+.botonAgregar{
+  padding: 10px;
+  text-align: center;
+}
+#BotonAgregar{
+  background-color: #751196;
+  color: #fff;
+  font-size: 17px;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  box-shadow: 3px 3px 10px 0px #00000069;
+}
+#BotonAgregar:hover{
+  box-shadow: 3px 3px 10px 0px #0000008e;
+  background-color: #751196;
+  cursor: pointer;
+}
+
+#BotonAgregar:active{
+  background-color: #8d16b4;
+  box-shadow: inset 0px 0px 10px #00000063;
+}
